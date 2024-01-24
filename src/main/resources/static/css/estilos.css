@@ -1,0 +1,23 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+
+/* Comentario CSS
+    Created on : 23 ene 2024, 20:29:05
+    Author     : cesar
+*/
+
+#tituloPrincipal{
+    color: crimson;
+    font-family: sans-serif;
+}
+
+.parrafoSecundario{
+    color: royalblue;
+    font-family: sans-serif;
+}
+
+*{
+    background-color: #E1F0DA;
+}
