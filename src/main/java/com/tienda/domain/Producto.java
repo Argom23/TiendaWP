@@ -17,7 +17,7 @@ public class Producto implements Serializable{
     private String descripcion;
     private String detalle;
     private double precio;
-    private String existencias;
+    private int existencias;
     private String rutaImagen;
     private boolean activo;
     // private Long idCategoria;
@@ -29,7 +29,7 @@ public class Producto implements Serializable{
     public Producto() {
     }
 
-    public Producto(String descripcion, String detalle, double precio, String existencias, String rutaImagen, boolean activo, Long idCategoria) {
+    public Producto(String descripcion, String detalle, double precio, int existencias, String rutaImagen, boolean activo, Long idCategoria) {
         this.descripcion = descripcion;
         this.detalle = detalle;
         this.precio = precio;
